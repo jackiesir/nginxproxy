@@ -13,7 +13,7 @@ COPY tailtest.py /home
 WORKDIR /home
 
 #容器启动命令
-CMD ["/etc/init.d/nginx","start"]
+#CMD ["/etc/init.d/nginx","start"]
 
 
 
