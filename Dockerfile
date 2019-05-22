@@ -15,6 +15,7 @@ WORKDIR /home
 #容器启动命令
 #CMD ["/etc/init.d/nginx","start"]
 CMD ["nginx", "-g", "daemon off;"]
+RUN python3 /home/tailtest.py
 
 
 
